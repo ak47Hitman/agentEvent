@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="agentEvent:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/agentEvent_jar</output-path>
+    <root id="root">
+      <element id="archive" name="agentEvent.jar">
+        <element id="module-output" name="agentEvent" />
+      </element>
+      <element id="library" level="project" name="sqljdbc4" />
+    </root>
+  </artifact>
+</component>
