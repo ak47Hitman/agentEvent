@@ -22,7 +22,7 @@ public class Sender {
 
         Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("aka47Hitman@gmail.com", "sisi47sisi");
+                return new PasswordAuthentication("aka47Hitman@gmail.com", "************");
             }
         });
         session.setDebug(true);
